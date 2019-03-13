@@ -12,7 +12,7 @@ function teenager(age) {
     return 'You are a teenager!'
   }
   else {
-    return 'You are not a teenager!'
+    return 'You are not a teenager'
   }
 }
 
@@ -39,7 +39,7 @@ function ternaryTeenager(age) {
 
 function switchAge(age) {
 if (13 <= age && age<=19) {
-  'You are a teenager'
+  return 'You are a teenager'
 }
 else {
   return 'You have an age'
